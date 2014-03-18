@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:id="@+id/action_borra"
+          android:title="@string/borrar"
+          android:showAsAction="never"/>
+    
+    <item android:id="@+id/action_borraFicheros"
+          android:title="@string/borrarF"
+          android:showAsAction="never"/>
+
+</menu>

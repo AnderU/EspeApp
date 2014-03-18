@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ESPE</string>
+    <string name="action_settings">Settings</string>
+    <string name="comprar">Comprar</string>
+    <string name="proveedores">Proveedor</string>
+    <string name="descarga">Descargar</string>
+    <string name="genero">Género</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="listo">Listo</string>
+    <string name="id">CIF</string>
+    <string name="vacio" />
+    <string name="siguiente">Siguiente</string>
+    <string name="guardar">Guardar</string>
+    <string name="precio"> Precio</string>
+    <string name="cantidad"> Cantidad</string>
+    <string name="confirmar">Confirmar Compra</string>
+    <string name="idG">Identificador</string>
+    <string name="name">Nombre</string>
+    <string name="search_hint"> Buscar</string>
+    <string name="borrar">Borrar compras existentes </string>
+    <string name="borrarF">Borrar ficheros</string>
+    <string name="iva">IVA</string>
+    <string name="impuestos">Impuestos</string>
+    <string name="email">Email</string>
+    <string name="total">TOTAL</string>
+    <string name="descargarYenviar">Descargar y Enviar</string>
+
+    <color name="blue">#00BFFF</color>
+    <color name="white">#fff</color>
+    <color name="grey">#778899</color>
+    <color name="drawer">#808080</color>
+    <color name="divider">#C0C0C0</color>
+
+    <string-array name="options_array">
+        <item>Comprar</item>
+        <item>Ver Compras</item>
+        <item>Descargar</item>
+        <item>Proveedores</item>
+        <item>Géneros</item>
+        <item>Configuración</item>
+    </string-array>
+
+    <string name="title_activity_genero">Géneros</string>
+    <string name="title_activity_add_genero">AddGenero</string>
+    <string name="title_activity_add_compra">Comprar</string>
+    <string name="title_activity_confirma_compra">Confirmar Compra</string>
+    <string name="title_activity_muestra_proveedor">MuestraProveedor</string>
+    <string name="title_activity_muestra_genero">MuestraGenero</string>
+    <string name="title_activity_descargar">Descargar</string>
+    <string name="title_activity_add_proveedor">Añadir Proveedor</string>
+    <string name="title_activity_proveedores">Proveedores</string>
+    <string name="title_activity_configuracion">Configuración</string>
+    <string name="title_activity_compras">Compras</string>
+    <string name="title_activity_muestra_compra">MuestraCompra</string>
+
+</resources>

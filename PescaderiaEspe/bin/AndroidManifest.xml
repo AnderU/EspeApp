@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.app.pescaderiaespe"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.app.pescaderiaespe.MainActivity"
+            android:label="@string/app_name"
+             >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.app.pescaderiaespe.Proveedores"
+            android:label="@string/title_activity_proveedores" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.app.pescaderiaespe.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.app.pescaderiaespe.AddProveedor"
+            android:label="@string/proveedores" >
+        </activity>
+        <activity
+            android:name="com.app.pescaderiaespe.Genero"
+            android:label="@string/title_activity_genero" >
+        </activity>
+        <activity
+            android:name="com.app.pescaderiaespe.AddGenero"
+            android:label="@string/genero" >
+        </activity>
+        <activity
+            android:name="com.app.pescaderiaespe.AddCompra"
+            android:label="@string/title_activity_add_compra" >
+        </activity>
+        <activity
+            android:name="com.app.pescaderiaespe.ConfirmaCompra"
+            android:label="@string/title_activity_confirma_compra" >
+        </activity>
+        <activity
+            android:name="com.app.pescaderiaespe.MuestraProveedor"
+            android:label="@string/proveedores" >
+        </activity>
+        <activity
+            android:name="com.app.pescaderiaespe.MuestraGenero"
+            android:label="@string/genero" >
+        </activity>
+        <activity
+            android:name="com.app.pescaderiaespe.Descargar"
+            android:label="@string/title_activity_descargar" >
+        </activity>
+        <activity
+            android:name="com.app.pescaderiaespe.Configuracion"
+            android:label="@string/title_activity_configuracion" >
+        </activity>
+        <activity
+            android:name="com.app.pescaderiaespe.Compras"
+            android:label="@string/title_activity_compras" >
+        </activity>
+        <activity
+            android:name="com.app.pescaderiaespe.MuestraCompra"
+            android:label="@string/title_activity_muestra_compra" >
+        </activity>
+    </application>
+
+</manifest>
